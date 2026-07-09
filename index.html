@@ -2728,6 +2728,28 @@ function esc(str) {
     <div class="section-title" style="font-size:28px;margin-bottom:24px">VỀ CHÚNG TÔI</div>
     
     <div style="max-width:800px;margin:0 auto">
+      <!-- Lời ngỏ Founder -->
+      <div style="background:linear-gradient(135deg, #1a1a1a 0%, #2a1111 100%);color:#fff;border-radius:12px;padding:32px;margin-bottom:32px;border:1px solid rgba(218,41,28,0.3);box-shadow:0 8px 24px rgba(0,0,0,0.15);position:relative;overflow:hidden">
+        <div style="position:absolute;top:-20px;right:-20px;width:120px;height:120px;background:radial-gradient(circle, rgba(218,41,28,0.25) 0%, transparent 70%);border-radius:50%;pointer-events:none"></div>
+        <div style="display:flex;align-items:center;gap:18px;margin-bottom:24px;border-bottom:1px solid rgba(255,255,255,0.1);padding-bottom:20px;flex-wrap:wrap">
+          <div style="position:relative;flex-shrink:0">
+            <img src="img/ava.jpg" alt="Nguyễn Thành Đạt - Founder" style="width:76px;height:76px;border-radius:50%;object-fit:cover;border:3px solid #DA291C;box-shadow:0 4px 16px rgba(218,41,28,0.4);display:block">
+            <div style="position:absolute;bottom:0;right:0;width:24px;height:24px;background:#DA291C;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:13px;border:2px solid #1a1a1a" title="Founder">👑</div>
+          </div>
+          <div>
+            <div style="display:inline-block;background:rgba(218,41,28,0.2);color:#ff4d4d;font-size:11px;font-weight:800;padding:4px 10px;border-radius:20px;letter-spacing:1px;text-transform:uppercase;margin-bottom:6px">Founder &amp; Admin</div>
+            <h2 style="font-size:22px;font-weight:900;color:#fff;margin:0;letter-spacing:0.5px">LỜI NGỎ TỪ NGƯỜI SÁNG LẬP</h2>
+            <div style="font-size:14px;color:#DA291C;font-weight:700;margin-top:4px">Nguyễn Thành Đạt — Founder &amp; Quản lý Website</div>
+          </div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:14px;color:#dedede;font-size:15px;line-height:1.8">
+          <p style="margin:0;font-weight:600;color:#fff;font-size:16px">Xin chào, tôi là Nguyễn Thành Đạt – người sáng lập và quản lý website này.</p>
+          <p style="margin:0">Sinh năm 2007 tại Hà Nội, tôi là một cổ động viên trung thành của câu lạc bộ Manchester United. Website này ra đời từ niềm đam mê bóng đá và tình yêu dành cho "Quỷ Đỏ" – nơi tôi chia sẻ những cập nhật, phân tích, cảm xúc và góc nhìn cá nhân về từng trận đấu, từng giai đoạn thăng trầm của đội bóng mà tôi yêu mến.</p>
+          <p style="margin:0">Bên cạnh niềm đam mê bóng đá, tôi hiện là sinh viên năm nhất ngành Quản trị Kinh doanh số tại Học viện Công nghệ Bưu chính Viễn thông (PTIT), chương trình hợp tác đào tạo cùng Rikkei Education và Rikkeisoft. Những kiến thức về chuyển đổi số, digital marketing và phân tích dữ liệu mà tôi được học không chỉ phục vụ cho định hướng nghề nghiệp, mà còn được tôi áp dụng để xây dựng và phát triển chính website này một cách bài bản, chuyên nghiệp hơn.</p>
+          <p style="margin:0">Với tôi, Manchester United không chỉ là một câu lạc bộ bóng đá, mà là nguồn cảm hứng về tinh thần chiến đấu, sự kiên định và niềm tin bất diệt. Tôi hy vọng website này sẽ là nơi kết nối những người hâm mộ cùng chung niềm đam mê, cùng nhau theo dõi và ủng hộ đội bóng qua từng chặng đường.</p>
+        </div>
+      </div>
+
       <div style="background:#f9f9f9;border-left:4px solid #DA291C;padding:24px 28px;border-radius:0 8px 8px 0;margin-bottom:32px">
         <h2 style="font-size:22px;font-weight:900;color:#1a1a1a;margin:0 0 12px">Quỷ Đỏ Việt Nam</h2>
         <p style="color:#555;font-size:15px;line-height:1.8;margin:0">Cộng đồng fan Manchester United lớn nhất Việt Nam — nơi những trái tim mang màu đỏ hội tụ để cùng nhau theo dõi, chia sẻ cảm xúc và yêu Quỷ Đỏ mỗi ngày.</p>
@@ -2898,6 +2920,11 @@ const QUIZ100=[
   {q:'Ai là người đặt biệt danh \'Red Devils\' cho MU?',o:['Matt Busby','Louis Rocca','John Henry Davies','Sandy Busby'],a:0},
   {q:'MU vô địch Champions League lần 3 vào mùa nào?',o:['2006-07','2007-08','2008-09','2009-10'],a:1}
 ];
+</script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    showPage('about');
+  });
 </script>
 </body>
 </html>
